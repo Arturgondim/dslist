@@ -8,12 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.arturgondim.dslist.dto.GameDto;
 import com.arturgondim.dslist.dto.GameMinDto;
-import com.arturgondim.dslist.entities.Game;
-import com.arturgondim.dslist.repositories.GameRepository;
 import com.arturgondim.dslist.services.GameServices;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
+
 
 
 @RestController

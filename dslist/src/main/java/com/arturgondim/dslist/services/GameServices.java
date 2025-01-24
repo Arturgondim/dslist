@@ -9,7 +9,6 @@ import com.arturgondim.dslist.dto.GameMinDto;
 import com.arturgondim.dslist.entities.Game;
 import com.arturgondim.dslist.repositories.GameRepository;
 
-import jakarta.transaction.Transactional;
 
 @Service
 public class GameServices {
